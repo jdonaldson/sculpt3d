@@ -7,3 +7,4 @@ Version Notes:
 * 0.2-2 - fixed selection bug where selection color would not show/update.
 				- package is difficult to get working on R 2.10 on OSX due to new GTK+ version requirements.  2.9 is recommended.
 * 0.3   - Updated GTK interface code to use the new GTK builder spec, rather than glade.  R version > 2.3 is now required.
+* 0.3-1  - The osx still needs the applescript hack in order to prevent hangs during select3d()

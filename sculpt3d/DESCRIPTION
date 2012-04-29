@@ -1,7 +1,7 @@
 Package: sculpt3d
 Type: Package
 Title: A simple toolbar GUI for brushing RGL plots
-Version: 0.3
+Version: 0.3-1
 Date: 2009-12-20
 Author: Justin Donaldson
 Maintainer: Justin Donaldson <jdonaldson@gmail.com>
