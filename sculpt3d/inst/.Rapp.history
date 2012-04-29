@@ -1,0 +1,81 @@
+log(0)
+6000 * .14
+6000 * .14 / 12
+require(RGtk2)
+require(rgl)
+require(RGtk2)
+require(sculpt3d)
+demo(sculpt3d)
+?RGtk2
+??RGtk2
+??glade
+?gtkbuilder
+??gtkbuilder
+require(sculpt3d)
+demo(sculpt3d)
+require(sculpt3d)
+demo(sculpt3d)
+?rglfont
+??rglfont
+?rgl.texts
+?par3d
+modes = rgl::par3d()$mouseMode
+modes
+rgl::par3d(mouseMode=modes)
+?par3d
+sculpt3d:::.select3dCall()
+sculpt3d:::.select3dCall()
+debug(sculpt3d:::.select3dCall()#
+)
+par3d("mouseMode")
+par3d()
+require(sculpt3d)
+par3d()
+par3d()$mouseMode
+debug(sculpt3d:::.select3dCall)
+sculpt3d:::.select3dCall()
+n
+n
+n
+sculpt3d:::.select3dCall()
+n
+.local$select3d_button
+gxml = gtkBuilderNew()
+gtkBuilderAddFromFile(gxml, file.path(etc,"rglToolbar.gtkb"), .errwarn=TRUE)
+setwd("~/Dropbox/sculpt3d-main/sculpt3d/inst")
+gtkBuilderAddFromFile(gxml, file.path(etc,"rglToolbar.gtkb"), .errwarn=TRUE)
+dir
+dir()
+etc <- file.path(.path.package(package="sculpt3d")[1], "etc")
+gtkBuilderAddFromFile(gxml, file.path(etc,"rglToolbar.gtkb"), .errwarn=TRUE)
+gxml
+gtkBuilderGetObject(gxml,'rglToolbar')
+gxml = gtkBuilderNew()
+gtkBuilderAddFromFile(gxml, file.path(etc,"rglToolbar.gtkb"), .errwarn=TRUE)
+etc <- file.path(.path.package(package="sculpt3d")[1], "etc")
+gtkBuilderAddFromFile(gxml, file.path(etc,"rglToolbar.gtkb"), .errwarn=TRUE)
+gxml
+gtkBuilderGetObject(gxml,'Select3d')
+.local$select3d_button <- gtkBuilderGetObject(gxml,'Select3d')
+sculpt3d:::.select3dCall()
+n
+n
+.local$select3d_button
+.local
+.local$select3d_button
+gxml
+.local$select3d_button <- gtkBuilderGetObject(gxml,'Select3d')
+.local$select3d_button
+n
+n
+.local$x
+n
+n
+sculpt3d:::.select3dCall()
+n
+n
+.local$select3d_button
+n
+.local$x
+.local$y
+coords$x

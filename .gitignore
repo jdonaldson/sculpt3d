@@ -1,0 +1,5 @@
+.DS_Store
+.Rhistory
+*.tmproj
+sculpt3d.Rcheck/
+*.svn
