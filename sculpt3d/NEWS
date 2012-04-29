@@ -1,7 +1,9 @@
-* version 0.1 - Initial release.  Selecting, coloring, cropping, deleting, and mouseMode switching features are added.
-* version 0.2 - support for callbacks
-* version 0.2-1 - fixed bug when specifying radii with sphere based points.
+Version Notes:
+* 0.1 - Initial release.  Selecting, coloring, cropping, deleting, and mouseMode switching features are added.
+* 0.2 - support for callbacks
+* 0.2-1 - fixed bug when specifying radii with sphere based points.
 				- fixed reset button behavior
 				- fixed color argument bug
-* version 0.2-2 - fixed selection bug where selection color would not show/update.
+* 0.2-2 - fixed selection bug where selection color would not show/update.
 				- package is difficult to get working on R 2.10 on OSX due to new GTK+ version requirements.  2.9 is recommended.
+* 0.3   - Updated GTK interface code to use the new GTK builder spec, rather than glade.  R version > 2.3 is now required.

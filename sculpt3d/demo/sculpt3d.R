@@ -1,9 +1,5 @@
 ### Name: sculpt3d
 ### Title: Example Plot
-### Aliases: 
-### Keywords: 
-
-### ** Demo
 
 x <- sort(rnorm(1000))
 y <- rnorm(1000)

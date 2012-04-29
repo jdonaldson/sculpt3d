@@ -61,11 +61,11 @@ Through the course of interaction with the toolbar, the data points become filte
 }
 
 \section{Warning}{
-It is strongly recommended to not call additional rgl plot functions on sculpt3d's current rgl device.  This can cause confuse the plotting, selection, and editing routines, and can crash the toolbar.
+It is strongly recommended to not call additional rgl plot functions on sculpt3d's current rgl device.  This can cause confuse the plotting, selection, and editing routines, and can even crash the toolbar.
 
-The toolbar itself is generated from a glade xml file, and is created as window in GTK+'s toolbar window-hint mode.  This allows the toolbar to float on top of the OpenGL window on some platforms, and remain immediately active without the need to switch between applications in the window manager.  However, this has the unfortunate side effect of obscuring the combo box drop down list on some platforms.  Currently, the workaround is to select the combo box, and change the values with the up/down arrows until it shows the correct value.
+The toolbar itself is generated from a GTK builder file, and is created as a window in GTK+'s toolbar window-hint mode.  This allows the toolbar to float on top of the OpenGL window on some platforms, and remain immediately active without the need to switch between applications in the window manager.  However, this has the unfortunate side effect of obscuring the combo box drop down list on some platforms.  Currently, the workaround is to select the combo box, and change the values with the up/down arrows until it shows the correct value.
 
-In addition, the AQUA OpenGL target in OSX is handled differently than the other platforms.  The \code{rgl.select3d} function can only be called directly from the R Aqua console if that console is hosting the interactive session.  Therefore, it is necessary to use AppleScript to send the relevant command to the R console directly to prevent a hung session.  This has the side effect of including this private method call into the console history, as well as introducing a small delay when clicking the \code{Select3d} button on the toolbar.  Other platforms are not affected in this manner.
+In addition, the OSX version will throw several "invalid context" errors when sculpt3d is initialized for the first time.  This is a known issue with the RGTK2 bundle, and these errors do not affect the performance of the interface.
 }
 
 \value{
@@ -74,7 +74,7 @@ In addition, the AQUA OpenGL target in OSX is handled differently than the other
 
 
 \author{
-Justin Donaldson
+Justin Donaldson jdonaldson@gmail.com
 }
 
 
